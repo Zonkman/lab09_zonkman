@@ -91,7 +91,7 @@ void PrintCart(LLInventory *inv, LLUserCart *cart) {
     ItemPrint(n->item);
     //to get price
     LLInvNode *info = InvFindNode(inv, n->item);
-    std::cout << "\tPrice: "<< (info->price) << std::endl;
+    std::cout << "\tPrice: "<< (info->price) << " USD"<< std::endl;
   }
 }
 

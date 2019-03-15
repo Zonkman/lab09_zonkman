@@ -87,6 +87,7 @@ void InvShowOutOfStock(LLInventory *inv) {
 }
 
 void InvPrint(LLInventory *inv) {
+  std::cout << "Current inventory:"<<std::endl;
   for (LLInvNode *n = inv->head; n != NULL; n = n->next) {
     InvNodePrint(n);
   }
