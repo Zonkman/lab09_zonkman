@@ -35,7 +35,7 @@ int main()
   InvPrint(inventory);
 
   std::cout << std::endl;
-  std::cout << "test out of stock, ps5 should be out of stock" << std::endl;
+  std::cout << "test out of stock, pz5 should be out of stock" << std::endl;
   std::cout << std::endl;
 
   InvShowOutOfStock(inventory);
@@ -52,7 +52,7 @@ int main()
   AddToCart(inventory, cart, xphone);
 
   std::cout << std::endl;
-  std::cout << "try to buy ps5 and get error" <<std::endl;
+  std::cout << "try to buy pz5 and get error" <<std::endl;
   std::cout << std::endl;
 
   AddToCart(inventory, cart, ps5);
@@ -79,7 +79,7 @@ int main()
   InvShowOutOfStock(inventory);
 
   std::cout << std::endl;
-  std::cout << "they only want xphones now, they will put one back" << std::endl;
+  std::cout << "they only want two xphones now, they will put one back" << std::endl;
   std::cout << std::endl;
 
   RemoveFromCart(inventory, cart, xphone, true);
